@@ -22,7 +22,7 @@
     <body class="font-sans antialiased">
         <x-jet-banner />
 
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-gray-100" style="background: url('./../public/images/bg.jpg'); background-repeat: no-repeat;  background-size: cover;">
             @livewire('navigation-menu')
 
             <!-- Page Heading -->

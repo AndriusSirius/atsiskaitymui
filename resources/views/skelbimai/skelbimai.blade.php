@@ -8,8 +8,8 @@
                 <section class="pt-8 px-4">
                     <div class="flex flex-wrap overflow-hidden sm:-mx-1">
 
-                        <div class="border-b-2 w-full overflow-hidden sm:my-1 sm:px-1">
-                            <h2 class="mt-14 font-semibold uppercase text-dark text-lg">Jūsų parašyti skelbimai ir jų valdymas</h2>
+                        <div class="bg-white rounded border-b-2 w-full overflow-hidden sm:my-1 sm:px-1">
+                            <h2 class="ml-6 mt-14 font-semibold uppercase text-dark text-lg">Jūsų parašyti skelbimai ir jų valdymas</h2>
                             <table class="min-w-full divide-y divide-gray-200">
                                 <thead class="bg-gray-700">
                                     <div class="flex justify-end">
@@ -68,10 +68,10 @@
             <div class="container mx-auto px-4">
 
                 <section class="pt-8 px-4">
-                    <div class="flex flex-wrap overflow-hidden sm:-mx-1">
+                    <div class="bg-white rounded flex flex-wrap overflow-hidden sm:-mx-1">
 
                         <div class="border-b-2 w-full overflow-hidden sm:my-1 sm:px-1">
-                            <h2 class="mt-14 font-semibold uppercase text-dark text-lg">Skelbimų lenta</h2>
+                            <h2 class="ml-6 mt-14 font-semibold uppercase text-dark text-lg">Skelbimų lenta</h2>
                             <div class="grid md:grid-cols-2 sm:grid-cols-1 lg:grid-cols-3 m-5 mb-10">
 
                                 @foreach ($posts as $post)
