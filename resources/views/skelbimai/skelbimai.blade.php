@@ -1,4 +1,5 @@
 <x-app-layout>
+    @auth
     <div class="container mx-auto">
 
         <div class="flex justify-center">
@@ -59,6 +60,7 @@
 
         </div>
     </div>
+    @endauth
 
     <div class="container mx-auto">
 
@@ -98,4 +100,5 @@
             </div>
         </div>
     </div>
+
 </x-app-layout>

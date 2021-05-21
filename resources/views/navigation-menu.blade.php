@@ -1,4 +1,4 @@
-<nav x-data="{ open: false }" class="bg-white py-4 border-b border-gray-100">
+<nav x-data="{ open: false }" class="bg-white py-4 border-b border-gray-100  border-b-2 border-gray-700">
     <!-- Primary Navigation Menu -->
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
@@ -115,11 +115,11 @@
                             <x-slot name="content">
                                 <!-- Account Management -->
                                 <div class="block px-4 py-2 text-xs text-gray-400">
-                                    {{ __('Manage Account') }}
+                                    {{ __('Paskyra') }}
                                 </div>
 
                                 <x-jet-dropdown-link href="{{ route('profile.show') }}">
-                                    {{ __('Profile') }}
+                                    {{ __('Profilis') }}
                                 </x-jet-dropdown-link>
 
                                 @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
@@ -136,7 +136,7 @@
 
                                     <x-jet-dropdown-link href="{{ route('logout') }}" onclick="event.preventDefault();
                                                     this.closest('form').submit();">
-                                        {{ __('Log Out') }}
+                                        {{ __('Atsijungti') }}
                                     </x-jet-dropdown-link>
                                 </form>
                             </x-slot>
