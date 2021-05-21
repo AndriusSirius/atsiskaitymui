@@ -39,6 +39,8 @@
             </main>
         </div>
 
+        @include('footer')
+
         @stack('modals')
 
         @livewireScripts
