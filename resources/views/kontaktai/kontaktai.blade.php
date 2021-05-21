@@ -41,27 +41,7 @@
                         </div>
                     </div>
                 </div>
-
-                <form class="p-6 flex flex-col justify-center">
-                    <div class="flex flex-col">
-                        <label for="name" class="hidden">Full Name</label>
-                        <input type="name" name="name" id="name" placeholder="Full Name" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
-                    </div>
-
-                    <div class="flex flex-col mt-2">
-                        <label for="email" class="hidden">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Email" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
-                    </div>
-
-                    <div class="flex flex-col mt-2 mb-2">
-                        <label for="tel" class="hidden">Number</label>
-                        <input type="tel" name="tel" id="tel" placeholder="Telephone Number" class="w-100 mt-2 py-3 px-3 rounded-lg bg-white dark:bg-gray-800 border border-gray-400 dark:border-gray-700 text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none">
-                    </div>
-
-                    <button type="submit" class="w-full px-6 py-3 font-bold text-white bg-red-500 rounded-full hover:bg-red-700 focus:outline-none focus:shadow-outline">
-                        Patvirtinti
-                    </button>
-                </form>
+                @livewire('kontaktai-add')
             </div>
         </div>
     </div>
