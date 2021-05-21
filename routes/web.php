@@ -17,10 +17,12 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/home', [\App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
 Route::get('/skelbimai', [\App\Http\Controllers\SkelbimaiController::class, 'index'])->name('skelbimai');
 
 Route::get('/kontaktai', [\App\Http\Controllers\KontaktaiController::class, 'index'])->name('kontaktai');
 
-Route::middleware(['auth:sanctum', 'verified'])->get('/home', function () {
-    return view('home');
-})->name('home');
+// Route::middleware(['auth:sanctum', 'verified'])->get('/home', function () {
+//     return view('home');
+// })->name('home');
